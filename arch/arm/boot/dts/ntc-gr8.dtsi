@@ -941,7 +941,7 @@
 			dmas = <&dma SUN4I_DMA_NORMAL 2>,
 			       <&dma SUN4I_DMA_NORMAL 2>;
 			dma-names = "rx", "tx";
-			status = "disabled";
+			status = "okay";
 		};
 
 		ir0: ir@01c21800 {
